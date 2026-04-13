@@ -28,7 +28,7 @@ body {
   width: 600px;
   margin: 0 auto; /* auto fills left-right automatically */
   background-color: #353036;
-  padding: 0 20px 20px 20px;
+  padding: 0 40px 20px 20px;
   border: 5px solid black;
 }
 
@@ -36,4 +36,8 @@ img {
   display: block;
   margin: 0 auto; /* for it to work, need the display: block from before */
   max-width: 100%; /* insures that the image won't be larger that body width of 600px*/
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
 }
