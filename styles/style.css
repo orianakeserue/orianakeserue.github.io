@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #a22020e0;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0; /* top-left-bottom-right */
+  color: #a22020e0;
+  text-shadow: 3px 3px 1px black; /* 1: horizontal offset shadow from the text - 2:vertical
+  - 3: blur radius - 4: shadow colour */
+}
+
+p,
+li {
+  color: white;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto; /* auto fills left-right automatically */
+  background-color: #353036;
+  padding: 0 40px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* for it to work, need the display: block from before */
+  max-width: 100%; /* insures that the image won't be larger that body width of 600px*/
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
